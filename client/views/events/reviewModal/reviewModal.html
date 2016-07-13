@@ -1,0 +1,25 @@
+<template name="reviewModal">
+    <div class="ui small modal" id="reviewModal">
+        <div class="ui header text-center">¿Como te pareció esta acción?</div>
+
+        <div class="content">
+            <form class="ui form" id="reviewModal">
+                    <div class="field">
+                        <center>
+                            <div class="ui heart rating massive" data-rating="3" data-max-rating="5"></div>
+                        </center>
+                    </div>
+
+                    <div class="ui dividing header">Queremos tus comentarios</div>
+                    <div class="field">
+                        <textarea name="review"></textarea>
+                    </div>
+                    <button class="ui blue labeled submit icon button">
+                        <i class="icon edit"></i>
+                        Comentar
+                    </button>
+            </form>
+        </div>
+
+    </div>
+</template>
